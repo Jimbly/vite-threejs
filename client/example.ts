@@ -9,7 +9,7 @@ export function setupCounter(element: HTMLButtonElement): void {
   const setCounter = (count: number): void => {
     counter = count;
     foo.n = helper(foo.n);
-    element.innerHTML = `count was ${counter}`;
+    element.innerHTML = `count is ${counter}`;
   };
   element.addEventListener('click', () => setCounter(counter + 1));
   setCounter(0);

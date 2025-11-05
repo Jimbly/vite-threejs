@@ -693,6 +693,7 @@ export default [
         Promise: 'readonly',
         Proxy: 'readonly',
         RegExp: 'readonly',
+        requestAnimationFrame: 'readonly',
         SharedArrayBuffer: 'readonly',
         String: 'readonly',
         Symbol: 'readonly',
