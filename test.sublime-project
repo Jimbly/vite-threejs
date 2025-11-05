@@ -1,0 +1,18 @@
+{
+  "folders": [{
+    "folder_exclude_patterns": [
+      "node_modules",
+      "dist",
+    ],
+    "binary_file_patterns": [
+      "*.glb",
+      "*.gltf",
+      "*.gz",
+      "*.mp3",
+      "*.ogg",
+      "*.wav",
+      "package-lock.json",
+    ],
+    "path": ".",
+  }]
+}
