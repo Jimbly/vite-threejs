@@ -635,8 +635,8 @@ export default [
       globals: {
         ...safeGlobals(),
         // General globals on Node.js and browsers
-        __dirname: 'readonly',
-        __filename: 'readonly',
+        // not in ES modules: __dirname: 'readonly',
+        // not in ES modules: __filename: 'readonly',
         atob: 'readonly',
         Blob: 'readonly',
         btoa: 'readonly',
