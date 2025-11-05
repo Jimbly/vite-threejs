@@ -1,5 +1,7 @@
 import { defineConfig } from 'vite';
 import checker from 'vite-plugin-checker';
+import devtoolsJson from 'vite-plugin-devtools-json';
+
 
 export default defineConfig({
   // root: resolve(__dirname, 'client'),
@@ -12,6 +14,7 @@ export default defineConfig({
         watchPath: ['./client', './common', './server'],
       },
     }),
+    devtoolsJson(),
   ],
   base: '',
   server: {
